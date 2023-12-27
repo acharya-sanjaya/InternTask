@@ -1,0 +1,20 @@
+.slider-container {
+    width: 1080px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+.slider-outer-container h2 {
+    padding-left: 105px;
+    margin: 20px auto;
+}
+
+.movie-slider {
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: #345 #789;
+}

@@ -1,0 +1,18 @@
+.movie-description img {
+    display: block;
+    height: 80vh;
+    z-index: -1;
+}
+
+.movie-description {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.movie-desc-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,41 @@
+.title {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #123;
+    font-family: Sofia, serif;
+}
+
+.navItems {
+    font-size: 30px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navItems:hover {
+    cursor: pointer;
+    background-color: #345;
+}
+
+.search {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 30px;
+    font-size: 15px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.search-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
